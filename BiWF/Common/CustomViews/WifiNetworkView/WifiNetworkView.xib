@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WifiNetworkView" customModule="BiWF" customModuleProvider="target">
+            <connections>
+                <outlet property="expandQRCodeButton" destination="UkZ-LZ-3qD" id="jvs-Y8-DBP"/>
+                <outlet property="networkEnableDisableButton" destination="jGL-h6-vZ9" id="aeE-Bj-dEb"/>
+                <outlet property="networkNameLabel" destination="SmG-8m-F0M" id="uRX-n2-bqh"/>
+                <outlet property="qrCodeImageView" destination="Hdc-a5-nMG" id="CHC-9F-d6w"/>
+                <outlet property="scanLabel" destination="hTV-a3-tiG" id="odR-xu-ZJ5"/>
+                <outlet property="tapToZoomLabel" destination="ldw-5H-PTP" id="oCM-Xs-SPV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="awr-7t-avY">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hdc-a5-nMG">
+                    <rect key="frame" x="17" y="21" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="48" id="EVv-cD-m6s"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="aEq-i0-ocb"/>
+                        <constraint firstAttribute="width" constant="48" id="c6m-TX-PGE"/>
+                        <constraint firstAttribute="height" constant="48" id="wiH-wc-J36"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkZ-LZ-3qD">
+                    <rect key="frame" x="17" y="21" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="4VF-Zr-UeC"/>
+                        <constraint firstAttribute="width" constant="48" id="xQ3-N5-tpY"/>
+                    </constraints>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGL-h6-vZ9">
+                    <rect key="frame" x="360" y="26" width="38" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="38" id="Mg5-bB-WBz"/>
+                        <constraint firstAttribute="height" constant="38" id="s9K-aJ-ZgK"/>
+                    </constraints>
+                    <state key="normal" image="on"/>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Qbe-4z-bzX">
+                    <rect key="frame" x="82" y="13" width="255" height="61.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTV-a3-tiG">
+                            <rect key="frame" x="0.0" y="0.0" width="255" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SmG-8m-F0M">
+                            <rect key="frame" x="0.0" y="20.5" width="255" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldw-5H-PTP">
+                            <rect key="frame" x="0.0" y="41" width="255" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="UkZ-LZ-3qD" firstAttribute="centerY" secondItem="Hdc-a5-nMG" secondAttribute="centerY" id="9PM-X7-Ssv"/>
+                <constraint firstItem="Hdc-a5-nMG" firstAttribute="leading" secondItem="awr-7t-avY" secondAttribute="leading" constant="17" id="Rct-nC-7d7"/>
+                <constraint firstItem="Qbe-4z-bzX" firstAttribute="leading" secondItem="Hdc-a5-nMG" secondAttribute="trailing" constant="17" id="Reg-C7-eYZ"/>
+                <constraint firstItem="jGL-h6-vZ9" firstAttribute="centerY" secondItem="awr-7t-avY" secondAttribute="centerY" id="TT0-q2-6m0"/>
+                <constraint firstItem="Hdc-a5-nMG" firstAttribute="centerY" secondItem="awr-7t-avY" secondAttribute="centerY" id="V7I-xx-OJO"/>
+                <constraint firstItem="UkZ-LZ-3qD" firstAttribute="centerX" secondItem="Hdc-a5-nMG" secondAttribute="centerX" id="d8z-mO-eUb"/>
+                <constraint firstItem="jGL-h6-vZ9" firstAttribute="leading" secondItem="Qbe-4z-bzX" secondAttribute="trailing" constant="23" id="gK4-VT-hEB"/>
+                <constraint firstItem="Qbe-4z-bzX" firstAttribute="top" secondItem="awr-7t-avY" secondAttribute="top" constant="13" id="hxB-hh-g1m"/>
+                <constraint firstItem="Hi3-QS-TRh" firstAttribute="trailing" secondItem="jGL-h6-vZ9" secondAttribute="trailing" constant="16" id="jOh-Ms-xY2"/>
+                <constraint firstAttribute="bottom" secondItem="Qbe-4z-bzX" secondAttribute="bottom" constant="15.5" id="tE2-Ow-fy7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Hi3-QS-TRh"/>
+            <point key="canvasLocation" x="-78" y="757"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="on" width="38" height="38"/>
+    </resources>
+</document>

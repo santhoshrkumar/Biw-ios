@@ -1,0 +1,11 @@
+{
+    "Id": "a7Nq0000000BYvlEAG",
+    "Zuora__PaymentMethod__c": "Test",
+    "Product_Plan_Name__c": "Best in world fiber",
+    "ZAmountWithoutTax__c": "100",
+    "Sales_Tax__c": 0.0,
+    "Zuora__Amount__c": 100.0,
+    "Zuora__CreatedDate__c": "2020-04-24T13:37:55.000+0000",
+    "Promo_code": "DGKYNK",
+    "Promo_code_value": "5"
+}

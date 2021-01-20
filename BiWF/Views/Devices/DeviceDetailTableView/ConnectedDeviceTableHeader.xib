@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ConnectedDeviceTableHeader" id="iN0-l3-epB" customClass="ConnectedDeviceTableHeader" customModule="BiWF" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHF-ks-6Of">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="iNi-1G-dZF">
+                    <rect key="frame" x="20" y="32" width="374" height="22"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gs4-KT-kEH">
+                            <rect key="frame" x="0.0" y="0.0" width="38" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="38" id="Z00-gZ-3zz"/>
+                            </constraints>
+                            <state key="normal" image="expand"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctk-oY-zbb">
+                            <rect key="frame" x="39" y="0.0" width="37.5" height="22"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
+                            <color key="textColor" red="0.0" green="0.1176470588" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Device connected" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zr0-be-3AZ">
+                            <rect key="frame" x="77.5" y="0.0" width="296.5" height="22"/>
+                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                            <color key="textColor" red="0.0" green="0.1176470588" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="nHF-ks-6Of" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="26v-6f-Ibx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="iNi-1G-dZF" secondAttribute="bottom" constant="16" id="5aA-an-GIB"/>
+                <constraint firstAttribute="bottom" secondItem="nHF-ks-6Of" secondAttribute="bottom" id="6uh-gb-nqM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iNi-1G-dZF" secondAttribute="trailing" constant="20" id="NL4-Mx-tH4"/>
+                <constraint firstItem="iNi-1G-dZF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="QT0-MX-Sxi"/>
+                <constraint firstItem="nHF-ks-6Of" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="V1a-g2-meK"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nHF-ks-6Of" secondAttribute="trailing" id="YME-4A-Hf6"/>
+                <constraint firstItem="iNi-1G-dZF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="32" id="fB4-CJ-NyT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="constraintSectionButtonWidth" destination="Z00-gZ-3zz" id="gm3-d7-kyx"/>
+                <outlet property="countLabel" destination="ctk-oY-zbb" id="ND6-ME-pDO"/>
+                <outlet property="header" destination="Zr0-be-3AZ" id="u7N-xz-AR9"/>
+                <outlet property="sectionButton" destination="Gs4-KT-kEH" id="bjA-mV-p2j"/>
+            </connections>
+            <point key="canvasLocation" x="-45" y="-174"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="expand" width="24" height="24"/>
+    </resources>
+</document>

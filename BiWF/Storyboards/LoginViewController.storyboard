@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Lfm-aU-aCU">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="yhc-oW-aTH" customClass="LoginViewController" customModule="BiWF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jKm-ee-X6A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuantumFiber_logo_primary_FullColor-RVS_SM_RGB" translatesAutoresizingMaskIntoConstraints="NO" id="Z1A-ok-SdK">
+                                <rect key="frame" x="58.5" y="387" width="297" height="122"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QUq-BY-q9j"/>
+                        <color key="backgroundColor" name="biwf_purple"/>
+                        <constraints>
+                            <constraint firstItem="QUq-BY-q9j" firstAttribute="bottom" secondItem="Z1A-ok-SdK" secondAttribute="bottom" constant="353" id="AJG-cx-0c3"/>
+                            <constraint firstItem="QUq-BY-q9j" firstAttribute="trailing" secondItem="Z1A-ok-SdK" secondAttribute="trailing" constant="58.5" id="TD4-mv-Aak"/>
+                            <constraint firstItem="Z1A-ok-SdK" firstAttribute="leading" secondItem="QUq-BY-q9j" secondAttribute="leading" constant="58.5" id="tPM-3C-oZM"/>
+                            <constraint firstItem="Z1A-ok-SdK" firstAttribute="top" secondItem="QUq-BY-q9j" secondAttribute="top" constant="343" id="uKQ-V9-sNR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IjC-Km-OQ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="-234.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="QuantumFiber_logo_primary_FullColor-RVS_SM_RGB" width="826" height="230"/>
+        <namedColor name="biwf_purple">
+            <color red="0.31400001049041748" green="0.19599999487400055" blue="0.58799999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

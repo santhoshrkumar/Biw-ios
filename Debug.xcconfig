@@ -1,0 +1,32 @@
+//
+//  Debug.xcconfig
+//  BiWF
+//
+//  Created by travis.r.fischer on 9/8/20.
+//  Copyright © 2020 Digital Products. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CTL_APP_NAME = Quantum Fiber
+CTL_APP_BUNDLE = com.centurylink.BIWF
+
+APIGEE_URL = centurylink-test1.apigee.net
+SALESFORCE_URL = qa-qa101.cs16.force.com
+COMMUNITY_NAME = phish
+ORG_ID = 00Df0000002HOQc
+
+CLIENT_ID = 8UreMUb4rlHbF3ovtM3M3KS6B2oBbG2Q
+REDIRECT_SCHEME = iOSBiWF
+
+SALES_FORCE_VERSION = v46.0
+APIGEE_VERSION = v1
+
+// Chat values
+LIVE_AGENT_POD = d.la1-c1cs-ord.salesforceliveagent.com
+DEPLOYMENT_ID = 572f0000000Cauc
+BUTTON_ID = 573f000000000zz
+AMBASSADOR_BUTTON_ID = 573f00000004DO4
+
+PENDO_APP_KEY = eyJhbGciOiJSUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJkYXRhY2VudGVyIjoidXMiLCJrZXkiOiIyNWQ1N2IzOTJiNmZiZDU1NTgxNmIwMmQwNDMzODhhYjNkZTBkYmYxYjJkOTc2OTk3OTQ0YWMzODE5YzRmMjE2Zjg3YTUyNGU3ZWQyYWQ4Mzc1YzRkYjg0ZDI5ZGE3NzQyZmZmMGRlMjlmMGM0N2IxMDMwN2M2OTRjMDg5MGIxNC42NDZkZmY5YjU2ZjFkNzZkNDg0NWNkYzFiYTQwN2Q5Yy45MzM4YmJhZDkzNGNlZjMyMDU5YjVkZTdjMDVlMDRlYWI2YmY0MTU4ZTBjNzc0MzY1YmViY2E4ZTI2Mjc0YmNhIn0.YJwP1WBW6XYMZafGRCbv01D8m_LgHFQWrqc_0NfHPcfEngMvisLBlD6kMs5e6YBDqJPe2OTTib-rJ7cVzctoUa8WrnJP6FoZL31Mp64QugT0kTGhvLWq6oQmljVtkZW8CMrbm6VQEyByCXw1BaUKOz_EHUr1x3qWPE66pFBt3UI

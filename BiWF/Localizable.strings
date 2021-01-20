@@ -1,0 +1,462 @@
+/*
+  Localizable.strings
+  TemplateApp
+
+  Created by Steve Galbraith on 9/19/19.
+  Copyright © 2019 Digital Products. All rights reserved.
+*/
+
+//Bar button
+"cancel" = "cancel";
+"next" = "next";
+
+//Alert
+"OK" = "OK";
+"Cancel" = "Cancel";
+"discardChangesAndClose" = "Discard changes and close";
+"errorSavingChanges"= "We’re very sorry for the inconvenience, but we were unable to save your changes. Please try again later.";
+"anErrorOccurred" = "An error has occurred.";
+"cancelButtonTitle" = "Cancel";
+"remove" = "Remove";
+"restore" = "Restore";
+"wantToSaveChanges" = "Do you want to save your changes?";
+"discard" = "Discard";
+"save" = "Save";
+"specialCharacterValidation" = "Special characters [!@#\/$%&*()_+=|<>?{}[]~.] are not allowed.";
+
+//Common
+"currency" = "$";
+"retry" = "Retry";
+"restartComplete" = "Modem restart incomplete.";
+"restartCompleteMessage" = "Please check that your modem is connected to power and try again.";
+"confirmationAlertTitle" = "Do you want to restart your modem?";
+"confirmationAlertMessage" = "This can take up to 5 minutes. You can close the app while you wait if you want, and your modem will continue restarting in the background.";
+"confirmationAlertRestartButtonTitle" = "Restart";
+
+//Units
+"MB" = "MB";
+"GB" = "GB";
+"TB" = "TB";
+
+// LoginViewModel
+"Welcome" = "Welcome";
+"LoginHeading" = "Log In to Your Account";
+"Email" = "Email";
+"Password" = "Password";
+"Login" = "Log In";
+"RememberMe" = "Remember Me";
+"ForgotPassword" = "Forgot Password";
+"InterestedInBiWF?" = "Interested in CenturyLink Best in World Fiber?";
+"LearnMore" = "Learn More";
+
+// TabHeader
+"Account" = "Account";
+"Dashboard" = "Dashboard";
+"Devices" = "Devices";
+"Internet offline" = "Internet offline";
+"Internet online" = "Internet online";
+"CustomerFeedBack" = "How are we doing? Leave us feedback";
+
+// Support
+"Support" = "Support";
+"LiveChat" = "Live chat";
+"ScheduleCallback" = "Schedule a callback";
+"FaqTopics" = "Frequently asked questions";
+"Troubleshooting" = "Troubleshooting";
+"callUsAt" = "Call Us at (123) 456-7890";
+"ContactUs" = "Contact us";
+"LastSpeedTest" = "last speed test: ";
+"RunNewTest" = "Run speed test";
+"RestartModem" = "Restart modem";
+"NeedHelp" = "Need more help? Visit our self-diagnostic tool on our website for additional options.";
+"VisitWebsite" = "Visit website";
+"MBPS" = "MBPS";
+"supportMbpsUpload" = "Mbps\nupload";
+"mbpsUpload" = "Mbps upload";
+"mbpsDownload" = "Mbps download";
+"cantFindAnswer" = "Can’t find the answer to your question?";
+"restarting" = "Restarting";
+"successAlert" = "Success!";
+"modemRebooting" = "Your modem has been restarted. If you’re still experiencing issues, please contact support.";
+"close" = "close";
+"speedTestError" = "Speed test error";
+"troubleshootingRestartModem" = "Having some issues? Restarting your modem may help.";
+"restartModem" = "Restart Modem";
+
+// Notification
+"Notifications" = "Notifications";
+"Notification history" = "Notification history";
+"Unread notifications" = "Unread (%d)";
+"Notifications details" = "Notifications details";
+"Mark all as read" = "Mark all as read";
+"Clear all" = "Clear all";
+
+//New User Dashboard
+"Fiber Installation Status" = "Fiber Installation Status";
+"Installation scheduled" = "Installation scheduled";
+"Your appointment is between" = "Your appointment is between";
+"Change installation appointment" = "Change installation appointment";
+"Congratulations" = "Congratulations";
+"You've signed up for best in World Fiber" = "You've signed up for best in World Fiber";
+"Keep track of your installation status here on your Best in World Fiber Dashboard" = "Keep track of your installation status here on your Best in World Fiber Dashboard";
+"Next step is to wait for your technician on your scheduled installation date. Make sure the area where the modem will be installed is clear for the technician." = "Next step is to wait for your technician on your scheduled installation date. Make sure the area where the modem will be installed is clear for the technician.";
+"Next step is to wait while your technician finished installing your World in Best Fiber modem" = "Next step is to wait while your technician finished installing your World in Best Fiber modem";
+"cancelAppointmentConfirmationTitle" = "Are you sure you want to cancel your appointment?";
+"cancelAppointmentAlertDescription" = "If you change your mind, you’ll need to contact customer support to book a new appointment.";
+"keepIt" = "Keep it";
+"cancelIt" = "Cancel it";
+"cancelAppointment" = "Cancel Appointment";
+"networkInformationRetryMessage" = "Loading network information. Please wait a few moments and try again.";
+
+//Installation status cell
+"installationStatus" = "Fiber Installation Status";
+"installationScheduled" = "Installation has been scheduled";
+"appointmentBetween" = "Your appointment is between";
+"changeAppointment" = "Change";
+"serviceVisitStatus" = "Service visit status";
+"serviceVisitScheduled" = "appointment has been scheduled";
+
+//InRoute cell
+"estimatedArrivalWindow" = "estimated arrival window";
+"technicianOnTheWay" = "a technician is on the way";
+"serviceVisitStatus" = "Service appt. status";
+"noTechnicianAssigned" = "appointment has been scheduled";
+
+//InProgress cell
+"isSettingNetwork" = "is working now!";
+"installationUnderway" = "installation underway";
+"serviceUnderway" = "service underway";
+
+//Installation completed cell
+"youAreAllSet" = "You’re all set!";
+"networkIsReady" = "The network is ready for you to connect and start enjoying your blazing fast internet.";
+"serviceVisitComplete" = "The service appointment is complete.";
+"installationComplete" = "Installation complete";
+"serviceComplete" = "Service complete";
+"getStarted" = "Get started";
+"dismiss" = "Dismiss";
+
+//WelcomeCell
+"Congratulations" = "Congratulations!";
+"youAreSignedUp" = "You’re signed up. Keep track of your installation status here on your Dashboard!";
+"weAreOnTheWay" = "We are on the way!";
+"clearTheArea" = "Make sure the area where the modem will be installed is clear for the technician.";
+"clearTheAreaForService" = "Make sure the area around the modem is clear for the technician.";
+"workInProgress" = "Work in progress...";
+"waitWhileTechnicianInstall" = "Next step is to wait while your technician finishes installing your fiber modem!";
+"waitWhileTechnicianForService" = "Next step is to wait while your technician performs your service.";
+
+
+//Manage Subscription
+"ManageSubscription" = "Manage subscription";
+"CancelSubscription" = "Cancel subscription";
+"CancelSubscriptionDescription" = "When canceling service on any day other than the last day of your current subscription, all monthly rates, fees, and taxes will apply in full and payments received for unused service will not be prorated, refunded, or credited. Your current subscription ends on";
+"SureCancelSubscription" = "Are you sure you want to cancel?";
+"ContinueCancel" = "Continue cancellation";
+
+
+//AccountInformation
+
+//Account owner info
+"ServiceAddress" = "Service address:";
+//Payment info
+"BestInWorldFiber" = "Best in World Fiber";
+"SpeedUpTo" = "Speeds up to";
+"PaymentInformation" = "Payment information";
+"NextPaymentDate" = "Next payment date:";
+"Visa" = "Visa";
+//Personal info
+"personalInfo" = "Personal info";
+"cellPhone" = "Cell phone:";
+"workPhone" = "Work phone:";
+"homePhone" = "Home phone:";
+"emailInfoText" = "Email:";
+"passwordText" = "Password:";
+//Preferences and settings
+"settingsPreferenceHeader" = "Settings & preferences";
+"loginSettingsHeader" = "Login settings";
+"communicationPreferenceHeader" = "Communication preferences";
+"faceID" = "Use Face-ID to login";
+"serviceCall" = "Services calls and texts";
+"serviceCallDescription" = "I would like to receive calls and text messages about my CenturyLink services at the number provided";
+"marketingEmail" = "Marketing emails";
+"marketingEmailDescription" = "I would like to receive emails about offers and marketing from CenturyLink at the email address provided";
+"marketingCall" = "Marketing calls and texts";
+"marketingCallDescription" = "I would like to receive calls and text messages about offers and marketing from CenturyLink at the number provided. I consent to the use of autodialers or artificial or prerecorded voice for the calls and text messages.";
+
+// Connected Devices
+"connectedDevices" = "Connected devices";
+"tapToView" = "TAP TO VIEW";
+"wantToRestore" = "Do you want to restore access to";
+"youCanRemove" = "You can remove it again later if you change your mind.";
+
+//FAQ Topics
+"frequentlyAskedQuestions" = "Frequently asked questions";
+"helpfulVideos" = "Helpful videos";
+"done" = "Done";
+
+//Cancel subscription
+
+"cancellationDate" = "Cancellation date";
+"sorryToSeeYouGo" = "We’re sorry to see you go.";
+"cancellationReason" = "Cancellation reason";
+"specifyCancellationReason" = "Please specify your cancellation reason";
+"rateExperience" = "Please rate your experience with your service";
+"comments" = "Comments";
+"tellMoreAboutExperience" = "Please tell us more about your experience";
+"submit" = "Submit";
+"optional" = "optional";
+"select" = "Select";
+"moreInfo" = "More information";
+"fieldRequired" = "fields marked * are required";
+
+//Cancellation reasons
+"reliabilityOrSpeed" = "Reliability or Speed";
+"priceOrBilling" = "Price or billing";
+"installation" = "Install delays, issues or timing";
+"customerSupport" = "Customer Support";
+"moving" = "Moving, death or military";
+"other" = "Other";
+
+
+// Final popup for cancellation
+"sureWantToCancel" = "Are you sure you want to cancel your subscription?";
+"serviceEndOn" = "Your service will end on";
+"noAccessForService" = "and you will not have access to internet after that date.";
+"keepService" = "Keep service";
+"cancelService" = "Cancel service";
+
+//Personal Information
+"personalInformation" = "Personal info";
+"loginInformation" = "Login information";
+"requiredFields" = "fields marked * are required";
+"emailAddress" = "Email address";
+"password" = "Password";
+"confirmPassword" = "Confirm password";
+"passwordDonotMatch" = "Passwords do not match";
+"phoneNumber" = "Phone number";
+"mobileNumber" = "Mobile phone";
+"errorOccurred" = "An error has occurred.";
+"invalidPhoneNumberLength" = "Please enter a valid 10 digit phone number";
+
+//Custom Alert
+"title" = "How do I change my email?";
+"message" = "We’re very sorry for the inconvenience, but we are currently unable to accommodate changing email addresses in the app. \n\n";
+"detail" = "We’re very sorry for the inconvenience, but we are currently unable to accommodate changing email addresses in the app.\n\nYou can change your email by calling our customer support number at 123-456-7890";
+"ok" = "OK";
+
+//Schedule callback
+"scheduleCallback" = "Schedule callback";
+"justLetUsKnow" = "Just let us know what you need and we’ll call you right back";
+"knowMoreAboutInternet" = "I want to know more about Instant Wifi";
+"troubleSigningUp" = "I'm having trouble signing up for Instant Wifi";
+"cannotSignIn" = "I can't sign into my account";
+"questionAboutAccount" = "I have questions about my account";
+"somethingNotListed" = "I need something not listed here";
+"callUsNow" = "Call us now at";
+
+//Additional info
+"additionalInfo" = "Additional info";
+"moreInfo" = "Please give us more information about the help you need.";
+"additionalInfoPlaceholder"  = "Additional information";
+"moreInfoNextButton" = "Next";
+
+//Contact info
+"contactInfo" = "Contact info";
+"contactText" = "Which phone number would you like us to contact you on?";
+"defaultNumber" = "123-456-7890";
+"mobileText" = "Mobile";
+"errorMessage" = "Please enter a valid phone number";
+
+//Select time for schedule callback
+"selectTime" = "Select time";
+"whenUsToCall" = "When would you like us to call?";
+"nextAvailableTime" = "Next available time";
+"availabelTimeSubHeader" = "Most people recieve a call within 15 minutes";
+"pickSpecificTime" = "I want to pick a specific time";
+"date" = "Date";
+"time" = "Time";
+"callMe" = "Call me";
+
+// Logout
+"logout" = "Log out";
+
+//Subscription
+"subscription" = "Subscription";
+"mySubscription" = "My subscription";
+"manageMySubscription" = "Manage my subscription";
+"editBillingInfo" = "Edit billing information";
+
+//Fiber plan detail
+"cardWillBeCharged" = "Your card will be charged";
+"taxesAndFees" = "taxes and fees on the 1st of every month";
+"previousStatements" = "Previous statements";
+
+//Statement detail
+"statement" = "Statement";
+
+//Payment details cell
+"paymentDetails" = "Payment Details";
+"processedOn" = "Successfully processed";
+"paymentMethod" = "Payment method";
+"email" = "Email";
+"billingAddress" = "Billing address";
+
+//Payment breakdown cell
+"paymentBreakdown" = "Payment Breakdown";
+"salesTax" = "Sales tax";
+"promoCode" = "Promo code";
+"offYourMonthlyBill" = "off your monthly bill";
+"total" = "Total";
+
+//EditPayment
+"userNoteDetail" = "Note: changes may take up to a minute to appear on the Account screen after submission";
+
+//Biometric
+"goToSettingsButtonTitle" = "Go to settings";
+"alertTitleError" = "Error";
+"alertTitleSucess" = "Success";
+"faceIdUnlockDevice" = "Unlock device";
+"faceIdUnlocking" = "Unlock using Face ID";
+"touchIdUnlocking" = "Unlock using Touch ID";
+"noBiometricSupport" = "No Biometric support";
+"failedNotValidCredentials" = "The user failed to provide valid credentials";
+"authCancelledByApp"  = "Authentication was cancelled by application";
+"invalidContext" = "The context is invalid";
+"notInteractive" = "Not interactive";
+"passcodeNotSet" = "Passcode is not set on the device";
+"authenticationCancelledBySystem" = "Authentication was cancelled by the system";
+"userCancelled" = "The user did cancel";
+"userChoosedFallback" = "The user chose to use the fallback";
+"deviceNotSupportedBiometric" = "Authentication could not start because the device does not support biometric authentication.";
+"userLockedOut" = "Authentication could not continue because the user has been locked out of biometric authentication, due to failing authentication too many times.";
+"notEnrolledBiometric" = "Authentication could not start because the user has not enrolled in biometric authentication.";
+"unknownError" = "Unknown error occured, try again";
+//Welcome alert strings
+"welcomeAlertTitle" = "Welcome to your Dashboard!";
+"welcomeAlertMessageFaceID" = "Do you want to enable FaceID for login as blazing fast as your WiFi?";
+"welcomeAlertMessageTouchID" = "Do you want to enable TouchID for login as blazing fast as your WiFi?";
+"welcomeRightButtonTitle" = "Don’t Allow";
+
+//Passcode
+"titleCreatePasscode" = "Create a passcode";
+"titleEnterPasscode" = "Enter your passcode";
+
+//Chat
+"agentEndedSession" = "The agent has ended the session.";
+"noAgentsAvailable" = "It looks like there are no agents available. Try again later.";
+"userEndedSession" = "You have ended the chat session";
+"sessionEndReasonUnknown" = "Session ended for an unknown reason.";
+"sessionEnded" = "Session Ended";
+"chatError" = "Char Error";
+"unexpectedChatError" = "There was an unexpected error";
+"existingSessionErrorDescription" = "There is already an existing chat session";
+"sessionCreationErrorDescription" = "Unable to create chat session";
+
+//AvailableTimeTableViewCell
+"selectDayAndTime" = "Select the day and time that works best for you.";
+"modifyAppointmentInstructions" = "please note that installation appointments can take up to 3 hours once your technician arrives. additionally, an adult 18 or older is required to be present for the installation to occur.";
+"availableAppointmentsOn" = "Available appointments on";
+"unselectedSlotError" = "Please select an appointment to continue";
+
+//Modify appointment
+"modifyAppointment" = "Modify appointment";
+"appointmentAlreadyScheduled" = "Appointment has been scheduled by someone else.";
+"selectDateAndSlot" = "Please select date and slot to continue";
+
+//LoaderErrorView
+"loading" = "Loading";
+"updating" = "Updating";
+"removing" = "Removing";
+"restoring" = "Restoring";
+"cancelling" = "Cancelling";
+"errorLoadingInformation" = "Error loading information.";
+"tapToRetry" = "Tap to retry.";
+"pleaseTryAgain" = "Please try again";
+
+//UsageDetails
+"usageToday" = "Today’s data usage:";
+"usageLastTwoWeeks" = "Last two weeks data usage:";
+"connectionPaused" = "Connection paused";
+"deviceConnected" = "Device connected";
+"notConnected" = "Not connected";
+"tapToPause" = "tap to pause connection";
+"tapToResume" = "tap to resume connection";
+"tapToConnectDeviceToNetwork" = "connect device to network to pause or unpause";
+"tapToReload" = "error loading device status - tap to retry";
+"upload" = "upload";
+"download" = "download";
+"removeDevice" = "REMOVE DEVICE";
+"wantToRemove" = "Do you want to remove";
+"fromTheNetwork" = "from the network";
+"youCanRestoreAccess" = "You can restore access later if you want to.";
+"deviceOrganization" = "Organization";
+"devicesNickname" = "Nickname device";
+"nicknameOptional" = "(optional)";
+"devicesName" = "Device name";
+"max15CharacterLimit" = "15 characters max";
+
+//Device
+"connectedDevice" = " Connected devices";
+"removedDevices" = "Removed devices";
+"tapToRestore" = "tap to restore access";
+"pullToRefresh" = "Pull to refresh device list";
+
+//Network Info
+"networkErrorOccurred" = "A network error has occurred.";
+"unknownErrorOccurred" = "Some error has occurred. Please try again.";
+"online" = "online";
+"offlne" = "offline";
+"connectedToInternet" = "You are connected to the internet.";
+"canNotConnectToInternet" = "Can’t establish connection to the internet.";
+"serialNumber" = "Serial Number";
+"networkInformation" = "Network information";
+"guestInformation" = "Guest network information";
+"internet" = "Internet";
+"modem" = "Modem";
+"networkName" = "Network name";
+"guestNetworkName" = "Guest network name";
+"networkPassword" = "Network password";
+"guestNetworkPassword" = "Guest network password";
+"networkPasswordDescription" = "must be 8-63 characters";
+"wifiNetwork" = "WiFi network";
+"network" = "network";
+"guestNetwork" = "Guest network";
+"enabled" = "enabled";
+"disabled" = "disabled";
+"tapToEnable" = "tap to enable";
+"tapToDisable" = "tap to disable";
+"tapToEditNetwork" = "tap to edit network";
+
+//Appointment confirmation
+"appointmentBooked" = "Appointment booked";
+"technicianWillArriveOn" = "Your technician will arrive on";
+"between" = "between";
+"someoneShouldPresent" = "Someone over the age of 18 must be present for the installation.\n\nIf you need to modify or cancel your installation date, view your dashboard.";
+"addAppointmentToCalendar" = "Add appointment to calendar";
+"viewMyDashboard" = "View my dashboard";
+"bookAppointmentDescription" = "If you need to modify or cancel your appointment, view your dashboard.";
+
+//Appointment cancellation
+"madeAMistake" = "If you’ve made a mistake in cancelling and want to make another appointment to install fiber internet, please call us at";
+"fiberInstallationStatus" = "Fiber installation status";
+"installationCancelled" = "Installation has been cancelled";
+
+//WiFiNetwork
+"scanToJoinNetwork" = "Scan to join network:";
+"scanToJoinGuestNetwork" = "Scan to join guest network:";
+"tapToViewFullScreen" = "tap code to view full screen";
+"scanToJoin" = "Scan to join:";
+
+//Join QR Code
+"scanQRCodeToJoinNetwork" = "Scan to join network:";
+"joinQRCode" = "Join code";
+"qrCodeInfoSubtitle" = "for best results, use full brightness on your phone";
+"addToAppleWallet" = "Add to Apple Wallet";
+
+//Network alert
+"disablingWiFiNetwork" = "Disabling WiFi network";
+"enablingWiFiNetwork" = "Enabling Wifi network";
+"disableNetworkAlertMessage" = "The network will be fully disabled in\n1-2 minutes. You can leave the app\nwhile you wait.";
+"errorDisabling" = "Error disabling WiFi network";
+"pleaseTryAgainLater" = "Please try again later.";

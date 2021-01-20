@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DashboardNetworkCell" rowHeight="48" translatesAutoresizingMaskIntoConstraints="NO" id="AuX-gu-4eT" customClass="DashboardNetworkCell" customModule="BiWF" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="48"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AuX-gu-4eT" id="wtW-5a-WlU">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jd1-CK-0vE">
+                        <rect key="frame" x="12" y="0.0" width="390" height="48"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwI-wh-fqJ">
+                                <rect key="frame" x="12" y="24" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" name="biwf_purple"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0O-Uv-2Y3">
+                                <rect key="frame" x="242" y="9" width="132" height="30"/>
+                                <state key="normal" title="Tap to edit network"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FwI-wh-fqJ" firstAttribute="centerY" secondItem="Jd1-CK-0vE" secondAttribute="centerY" id="N2Y-Yq-N8D"/>
+                            <constraint firstAttribute="trailing" secondItem="b0O-Uv-2Y3" secondAttribute="trailing" constant="16" id="OnQ-l9-rPf"/>
+                            <constraint firstItem="FwI-wh-fqJ" firstAttribute="leading" secondItem="Jd1-CK-0vE" secondAttribute="leading" constant="12" id="Q3m-8U-Twf"/>
+                            <constraint firstItem="b0O-Uv-2Y3" firstAttribute="centerY" secondItem="Jd1-CK-0vE" secondAttribute="centerY" id="T4G-r5-Esp"/>
+                            <constraint firstItem="b0O-Uv-2Y3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FwI-wh-fqJ" secondAttribute="trailing" constant="20" id="Yjx-L0-lH4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Jd1-CK-0vE" firstAttribute="top" secondItem="wtW-5a-WlU" secondAttribute="top" id="N0e-jr-2MT"/>
+                    <constraint firstAttribute="trailing" secondItem="Jd1-CK-0vE" secondAttribute="trailing" constant="12" id="VIe-Eb-2Cr"/>
+                    <constraint firstAttribute="bottom" secondItem="Jd1-CK-0vE" secondAttribute="bottom" id="VOC-56-RD5"/>
+                    <constraint firstItem="Jd1-CK-0vE" firstAttribute="leading" secondItem="wtW-5a-WlU" secondAttribute="leading" constant="12" id="yiu-Pp-ek1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="containerView" destination="Jd1-CK-0vE" id="Q4F-Rh-Zel"/>
+                <outlet property="tapToEditButton" destination="b0O-Uv-2Y3" id="SF1-Zh-hWy"/>
+                <outlet property="titleLabel" destination="FwI-wh-fqJ" id="CO6-Gg-kit"/>
+            </connections>
+            <point key="canvasLocation" x="37.681159420289859" y="-122.54464285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="biwf_purple">
+            <color red="0.31400001049041748" green="0.19599999487400055" blue="0.58799999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

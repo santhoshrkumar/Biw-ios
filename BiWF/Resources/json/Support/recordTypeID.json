@@ -1,0 +1,13 @@
+{
+    "totalSize": 1,
+    "done": true,
+    "records": [
+        {
+            "attributes": {
+                "type": "RecordType",
+                "url": "/services/data/v46.0/sobjects/RecordType/012f0000000l0wrAAA"
+            },
+            "Id": "012f0000000l1hsAAA"
+        }
+    ]
+}

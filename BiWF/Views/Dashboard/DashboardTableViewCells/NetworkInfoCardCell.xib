@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NetworkInfoCardCell" rowHeight="222" id="dzW-AO-opy" customClass="NetworkInfoCardCell" customModule="BiWF" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="452"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dzW-AO-opy" id="Iy0-h6-jnr">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="452"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9KE-hb-mLp">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="452"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="327" placeholderIntrinsicHeight="211" translatesAutoresizingMaskIntoConstraints="NO" id="6Qo-23-A3x" customClass="NetworkInfoCardView" customModule="BiWF" customModuleProvider="target">
+                                <rect key="frame" x="12" y="1" width="327" height="211"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBd-w0-ExJ" customClass="NetworkInfoCardView" customModule="BiWF" customModuleProvider="target">
+                                <rect key="frame" x="12" y="236" width="327" height="216"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Qo-23-A3x" firstAttribute="top" secondItem="9KE-hb-mLp" secondAttribute="top" constant="1" id="1wU-5n-nWv"/>
+                            <constraint firstAttribute="bottom" secondItem="OBd-w0-ExJ" secondAttribute="bottom" id="NV8-e6-kzU"/>
+                            <constraint firstAttribute="trailing" secondItem="OBd-w0-ExJ" secondAttribute="trailing" constant="12" id="Txd-g4-5Av"/>
+                            <constraint firstItem="OBd-w0-ExJ" firstAttribute="leading" secondItem="9KE-hb-mLp" secondAttribute="leading" constant="12" id="UBZ-qu-gxh"/>
+                            <constraint firstItem="OBd-w0-ExJ" firstAttribute="top" secondItem="6Qo-23-A3x" secondAttribute="bottom" constant="24" id="WQi-7h-wR3"/>
+                            <constraint firstItem="6Qo-23-A3x" firstAttribute="leading" secondItem="9KE-hb-mLp" secondAttribute="leading" constant="12" id="iaR-hC-Nlk"/>
+                            <constraint firstAttribute="trailing" secondItem="6Qo-23-A3x" secondAttribute="trailing" constant="12" id="vRp-HP-VXc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9KE-hb-mLp" secondAttribute="trailing" id="CW8-w3-fME"/>
+                    <constraint firstItem="9KE-hb-mLp" firstAttribute="leading" secondItem="Iy0-h6-jnr" secondAttribute="leading" id="MTs-iC-AWX"/>
+                    <constraint firstItem="9KE-hb-mLp" firstAttribute="top" secondItem="Iy0-h6-jnr" secondAttribute="top" id="dLy-Se-Ftf"/>
+                    <constraint firstAttribute="bottom" secondItem="9KE-hb-mLp" secondAttribute="bottom" id="q9M-Ea-vSS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="containerView" destination="9KE-hb-mLp" id="uEO-sr-ydG"/>
+                <outlet property="guestInfoCardView" destination="OBd-w0-ExJ" id="d8g-i6-u7y"/>
+                <outlet property="networkInfoCardView" destination="6Qo-23-A3x" id="9qP-Xn-qgF"/>
+            </connections>
+            <point key="canvasLocation" x="-29.710144927536234" y="67.96875"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditPaymentDetailsCell" rowHeight="300" id="Z90-nw-iuX" customClass="EditPaymentDetailsCell" customModule="BiWF" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z90-nw-iuX" id="4kQ-46-fgG">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTm-5M-67l">
+                        <rect key="frame" x="0.0" y="8" width="414" height="292"/>
+                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <wkWebViewConfiguration key="configuration">
+                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                            <wkPreferences key="preferences"/>
+                        </wkWebViewConfiguration>
+                    </wkWebView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="MTm-5M-67l" secondAttribute="bottom" id="4mm-nF-WER"/>
+                    <constraint firstItem="MTm-5M-67l" firstAttribute="top" secondItem="4kQ-46-fgG" secondAttribute="top" constant="8" id="Laa-nY-MyV"/>
+                    <constraint firstItem="MTm-5M-67l" firstAttribute="leading" secondItem="4kQ-46-fgG" secondAttribute="leading" id="QE4-nl-0Kk"/>
+                    <constraint firstAttribute="trailing" secondItem="MTm-5M-67l" secondAttribute="trailing" id="fgT-5V-4Kj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="webView" destination="MTm-5M-67l" id="lvI-dt-nHV"/>
+            </connections>
+            <point key="canvasLocation" x="93" y="43"/>
+        </tableViewCell>
+    </objects>
+</document>

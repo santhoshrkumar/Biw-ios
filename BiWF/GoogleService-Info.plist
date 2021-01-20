@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>321327960156-qipk4tvg1ukkcbdi9mqg73gspc5u424s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.321327960156-qipk4tvg1ukkcbdi9mqg73gspc5u424s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBPP-PxIuQNv0u9Yupu4Od8ilomj2gmSDg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>321327960156</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.centurylink.biwf</string>
+	<key>PROJECT_ID</key>
+	<string>biwf-production</string>
+	<key>STORAGE_BUCKET</key>
+	<string>biwf-production.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:321327960156:ios:cb3dcd9e40c8611e9f9699</string>
+	<key>DATABASE_URL</key>
+	<string>https://biwf-production.firebaseio.com</string>
+</dict>
+</plist>

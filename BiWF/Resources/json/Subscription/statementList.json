@@ -1,0 +1,14 @@
+{
+    "totalSize": 1,
+    "done": true,
+    "records": [{"attributes": {
+        "type": "Zuora__Payment__c",
+        "url": "/services/data/v46.0/sobjects/Zuora__Payment__c/a7Nq0000000BYvlEAG"
+    },
+    "id": "a7Nq0000000BYvlEAG",
+    "Zuora__Invoice__c": "a7fq0000000IFFsAAO",
+    "CreatedDate": "2020-05-07T10:08:05.000+0000",
+    "Email": null,
+    "Billing_Address": null
+    }]
+}

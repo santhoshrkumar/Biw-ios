@@ -1,0 +1,292 @@
+{
+  "faqTopics": [
+    {
+      "type": "My Account",
+      "videolist": [
+        {
+          "id": 1,
+          "name": "Sysomos - Moving to CenturyLink Cloud See how we helped Sysomos, a social media and data analytics leader, better meet customer demands.",
+          "description": "See how we helped Sysomos, a social media and data analytics leader, better meet customer demands.",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:40",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 2,
+          "name": "The CenturyLink Difference - Voice of the Customer",
+          "description": "The CenturyLink Difference - Voice of the Customer The CenturyLink Difference",
+          "thumbnail": "https://news.centurylink.com/images/ctl-logo-black.svg",
+          "duration": "1:50",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 3,
+          "name": "Accelerate your Big Data and Analytics Deployments with the Cloud",
+          "description": "Manav Misra, Chief Knowledge Officer talks about how cloud providers are changing the dynamics of big data.",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:35",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 4,
+          "name": "Fiber Installation - CenturyLink",
+          "description": "This brief video walks you through the installation process when you purchase a Fiber Plus connection at your business location",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:45",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 5,
+          "name": "Denver Broncos Hit Fan Experience Paydirt on CenturyLink Network",
+          "description": "The Broncos found an innovative way to bring their fans closer to the game than ever before.",
+          "thumbnail": "https://news.centurylink.com/images/ctl-logo-black.svg",
+          "duration": "1:25",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        }
+      ],
+      "contentList": [
+        {
+          "id": 1,
+          "question": "How Will I Be Charged for My Services?",
+          "description": "You have several options for payment. You can receive a bill through the mail, you can pay online, you can call in and pay over the phone, or you can visit one of CenturyLink's store locations."
+        },
+        {
+          "id": 2,
+          "question": "When Is My First Bill Due?",
+          "description": "Depending on your billing cycle, your first payment is due approximately 30 days after your service is activated."
+        },
+        {
+          "id": 3,
+          "question": "Are There Any Upfront Fees for CenturyLink Service?",
+          "description": "Yes, but they aren't due until you pay your first bill. There are Phone/Internet activation fees, equipment fees (if you don't have your own), shipping and handling costs, and installation fees, if applicable. To activate your Internet, you may pay a one-time fee, plus a possible shipping and handling fee. Phone activation prices vary by state."
+        },
+        {
+          "id": 4,
+          "question": "Does CenturyLink Have a Cancellation Fee?",
+          "description": "Most CenturyLink customers opt for the 3-Year Price Lock Guarantee, which does not have a cancellation fee. If you decide to enter into a contract instead of the 3-Year Price Lock and you cancel your High-Speed Internet service before the end of your contract, you will be charged a pro-rated amount, based on the number of months you have left on your contract. These funds will be charged to you via an Electronic Funds Transfer. You can upgrade your services at any time without any termination fees."
+        },
+        {
+          "id": 5,
+          "question": "What Kind of Modem Is Compatible with CenturyLink?",
+          "description": "The best way to make sure your modem is compatible with CenturyLink DSL Internet is to purchase or rent a modem directly from CenturyLink:\n Actiontec C1000A CenturyLink Gateway \n Zyxel C1100Z 802.11n VDSL2 Wireless Gateway CenturyLink \n You can also browse CenturyLink’s complete list of compatible modems. If you have any questions about whether your current modem will work with your new CenturyLink Internet plan, don’t hesitate to get in touch. Remember that although some unapproved modems may let you access the Internet, CenturyLink-approved modems will get you the best-quality Internet available."
+        }
+      ]
+    },
+    {
+      "type": "Payment and Billing",
+      "videolist": [
+        {
+          "id": 1,
+          "name": "Sysomos - Moving to CenturyLink Cloud See how we helped Sysomos, a social media and data analytics leader, better meet customer demands.",
+          "description": "See how we helped Sysomos, a social media and data analytics leader, better meet customer demands.",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:40",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 2,
+          "name": "The CenturyLink Difference - Voice of the Customer",
+          "description": "The CenturyLink Difference - Voice of the Customer The CenturyLink Difference",
+          "thumbnail": "https://news.centurylink.com/images/ctl-logo-black.svg",
+          "duration": "1:50",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 3,
+          "name": "Accelerate your Big Data and Analytics Deployments with the Cloud",
+          "description": "Manav Misra, Chief Knowledge Officer talks about how cloud providers are changing the dynamics of big data.",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:35",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 4,
+          "name": "Fiber Installation - CenturyLink",
+          "description": "This brief video walks you through the installation process when you purchase a Fiber Plus connection at your business location",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:45",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 5,
+          "name": "Denver Broncos Hit Fan Experience Paydirt on CenturyLink Network",
+          "description": "The Broncos found an innovative way to bring their fans closer to the game than ever before.",
+          "thumbnail": "https://news.centurylink.com/images/ctl-logo-black.svg",
+          "duration": "1:25",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        }
+      ],
+      "contentList": [
+        {
+          "id": 1,
+          "question": "How Will I Be Charged for My Services?",
+          "description": "You have several options for payment. You can receive a bill through the mail, you can pay online, you can call in and pay over the phone, or you can visit one of CenturyLink's store locations."
+        },
+        {
+          "id": 2,
+          "question": "When Is My First Bill Due?",
+          "description": "Depending on your billing cycle, your first payment is due approximately 30 days after your service is activated."
+        },
+        {
+          "id": 3,
+          "question": "Are There Any Upfront Fees for CenturyLink Service?",
+          "description": "Yes, but they aren't due until you pay your first bill. There are Phone/Internet activation fees, equipment fees (if you don't have your own), shipping and handling costs, and installation fees, if applicable. To activate your Internet, you may pay a one-time fee, plus a possible shipping and handling fee. Phone activation prices vary by state."
+        },
+        {
+          "id": 4,
+          "question": "Does CenturyLink Have a Cancellation Fee?",
+          "description": "Most CenturyLink customers opt for the 3-Year Price Lock Guarantee, which does not have a cancellation fee. If you decide to enter into a contract instead of the 3-Year Price Lock and you cancel your High-Speed Internet service before the end of your contract, you will be charged a pro-rated amount, based on the number of months you have left on your contract. These funds will be charged to you via an Electronic Funds Transfer. You can upgrade your services at any time without any termination fees."
+        },
+        {
+          "id": 5,
+          "question": "What Kind of Modem Is Compatible with CenturyLink?",
+          "description": "The best way to make sure your modem is compatible with CenturyLink DSL Internet is to purchase or rent a modem directly from CenturyLink:\n Actiontec C1000A CenturyLink Gateway \n Zyxel C1100Z 802.11n VDSL2 Wireless Gateway CenturyLink \n You can also browse CenturyLink’s complete list of compatible modems. If you have any questions about whether your current modem will work with your new CenturyLink Internet plan, don’t hesitate to get in touch. Remember that although some unapproved modems may let you access the Internet, CenturyLink-approved modems will get you the best-quality Internet available."
+        }
+      ]
+    },
+    {
+      "type": "Fiber Internet",
+      "videolist": [
+        {
+          "id": 1,
+          "name": "Sysomos - Moving to CenturyLink Cloud See how we helped Sysomos, a social media and data analytics leader, better meet customer demands.",
+          "description": "See how we helped Sysomos, a social media and data analytics leader, better meet customer demands.",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:40",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 2,
+          "name": "The CenturyLink Difference - Voice of the Customer",
+          "description": "The CenturyLink Difference - Voice of the Customer The CenturyLink Difference",
+          "thumbnail": "https://news.centurylink.com/images/ctl-logo-black.svg",
+          "duration": "1:50",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 3,
+          "name": "Accelerate your Big Data and Analytics Deployments with the Cloud",
+          "description": "Manav Misra, Chief Knowledge Officer talks about how cloud providers are changing the dynamics of big data.",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:35",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 4,
+          "name": "Fiber Installation - CenturyLink",
+          "description": "This brief video walks you through the installation process when you purchase a Fiber Plus connection at your business location",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:45",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 5,
+          "name": "Denver Broncos Hit Fan Experience Paydirt on CenturyLink Network",
+          "description": "The Broncos found an innovative way to bring their fans closer to the game than ever before.",
+          "thumbnail": "https://news.centurylink.com/images/ctl-logo-black.svg",
+          "duration": "1:25",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        }
+      ],
+      "contentList": [
+        {
+          "id": 1,
+          "question": "How Will I Be Charged for My Services?",
+          "description": "You have several options for payment. You can receive a bill through the mail, you can pay online, you can call in and pay over the phone, or you can visit one of CenturyLink's store locations."
+        },
+        {
+          "id": 2,
+          "question": "When Is My First Bill Due?",
+          "description": "Depending on your billing cycle, your first payment is due approximately 30 days after your service is activated."
+        },
+        {
+          "id": 3,
+          "question": "Are There Any Upfront Fees for CenturyLink Service?",
+          "description": "Yes, but they aren't due until you pay your first bill. There are Phone/Internet activation fees, equipment fees (if you don't have your own), shipping and handling costs, and installation fees, if applicable. To activate your Internet, you may pay a one-time fee, plus a possible shipping and handling fee. Phone activation prices vary by state."
+        },
+        {
+          "id": 4,
+          "question": "Does CenturyLink Have a Cancellation Fee?",
+          "description": "Most CenturyLink customers opt for the 3-Year Price Lock Guarantee, which does not have a cancellation fee. If you decide to enter into a contract instead of the 3-Year Price Lock and you cancel your High-Speed Internet service before the end of your contract, you will be charged a pro-rated amount, based on the number of months you have left on your contract. These funds will be charged to you via an Electronic Funds Transfer. You can upgrade your services at any time without any termination fees."
+        },
+        {
+          "id": 5,
+          "question": "What Kind of Modem Is Compatible with CenturyLink?",
+          "description": "The best way to make sure your modem is compatible with CenturyLink DSL Internet is to purchase or rent a modem directly from CenturyLink:\n Actiontec C1000A CenturyLink Gateway \n Zyxel C1100Z 802.11n VDSL2 Wireless Gateway CenturyLink \n You can also browse CenturyLink’s complete list of compatible modems. If you have any questions about whether your current modem will work with your new CenturyLink Internet plan, don’t hesitate to get in touch. Remember that although some unapproved modems may let you access the Internet, CenturyLink-approved modems will get you the best-quality Internet available."
+        }
+      ]
+    },
+    {
+      "type": "WiFi and Connectivity",
+      "videolist": [
+        {
+          "id": 1,
+          "name": "Sysomos - Moving to CenturyLink Cloud See how we helped Sysomos, a social media and data analytics leader, better meet customer demands.",
+          "description": "See how we helped Sysomos, a social media and data analytics leader, better meet customer demands.",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:40",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 2,
+          "name": "The CenturyLink Difference - Voice of the Customer",
+          "description": "The CenturyLink Difference - Voice of the Customer The CenturyLink Difference",
+          "thumbnail": "https://news.centurylink.com/images/ctl-logo-black.svg",
+          "duration": "1:50",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 3,
+          "name": "Accelerate your Big Data and Analytics Deployments with the Cloud",
+          "description": "Manav Misra, Chief Knowledge Officer talks about how cloud providers are changing the dynamics of big data.",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:35",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 4,
+          "name": "Fiber Installation - CenturyLink",
+          "description": "This brief video walks you through the installation process when you purchase a Fiber Plus connection at your business location",
+          "thumbnail": "https://httpsak-a.akamaihd.net/1186058296001/1186058296001_5239086205001_5238934673001-vs.jpg",
+          "duration": "1:45",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        },
+        {
+          "id": 5,
+          "name": "Denver Broncos Hit Fan Experience Paydirt on CenturyLink Network",
+          "description": "The Broncos found an innovative way to bring their fans closer to the game than ever before.",
+          "thumbnail": "https://news.centurylink.com/images/ctl-logo-black.svg",
+          "duration": "1:25",
+          "videourl": "https://news.centurylink.com/news?category=801&l=10"
+        }
+      ],
+      "contentList": [
+        {
+          "id": 1,
+          "question": "How Will I Be Charged for My Services?",
+          "description": "You have several options for payment. You can receive a bill through the mail, you can pay online, you can call in and pay over the phone, or you can visit one of CenturyLink's store locations."
+        },
+        {
+          "id": 2,
+          "question": "When Is My First Bill Due?",
+          "description": "Depending on your billing cycle, your first payment is due approximately 30 days after your service is activated."
+        },
+        {
+          "id": 3,
+          "question": "Are There Any Upfront Fees for CenturyLink Service?",
+          "description": "Yes, but they aren't due until you pay your first bill. There are Phone/Internet activation fees, equipment fees (if you don't have your own), shipping and handling costs, and installation fees, if applicable. To activate your Internet, you may pay a one-time fee, plus a possible shipping and handling fee. Phone activation prices vary by state."
+        },
+        {
+          "id": 4,
+          "question": "Does CenturyLink Have a Cancellation Fee?",
+          "description": "Most CenturyLink customers opt for the 3-Year Price Lock Guarantee, which does not have a cancellation fee. If you decide to enter into a contract instead of the 3-Year Price Lock and you cancel your High-Speed Internet service before the end of your contract, you will be charged a pro-rated amount, based on the number of months you have left on your contract. These funds will be charged to you via an Electronic Funds Transfer. You can upgrade your services at any time without any termination fees."
+        },
+        {
+          "id": 5,
+          "question": "What Kind of Modem Is Compatible with CenturyLink?",
+          "description": "The best way to make sure your modem is compatible with CenturyLink DSL Internet is to purchase or rent a modem directly from CenturyLink:\n Actiontec C1000A CenturyLink Gateway \n Zyxel C1100Z 802.11n VDSL2 Wireless Gateway CenturyLink \n You can also browse CenturyLink’s complete list of compatible modems. If you have any questions about whether your current modem will work with your new CenturyLink Internet plan, don’t hesitate to get in touch. Remember that although some unapproved modems may let you access the Internet, CenturyLink-approved modems will get you the best-quality Internet available."
+        }
+      ]
+    }
+  ]
+}

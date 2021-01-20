@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="321" id="KGk-i7-Jjw" customClass="InRouteTableViewCell" customModule="BiWF" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="309"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="309"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XP4-Tu-Kd9">
+                        <rect key="frame" x="12" y="14" width="296" height="279"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HlU-cd-ZUs" customClass="InstallationStatusView" customModule="BiWF" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="296" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="34" id="K9h-Cs-iOq"/>
+                                </constraints>
+                            </view>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Jcz-bW-eHc" customClass="MapView" customModule="BiWF" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="34" width="296" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="jEZ-R7-OWQ"/>
+                                </constraints>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHj-zb-5ZG" customClass="TechnicianDetailView" customModule="BiWF" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="134" width="296" height="145"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="t50-EJ-pSB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jcz-bW-eHc" firstAttribute="top" secondItem="HlU-cd-ZUs" secondAttribute="bottom" id="2jE-o5-lxY"/>
+                            <constraint firstAttribute="bottom" secondItem="Jcz-bW-eHc" secondAttribute="bottom" priority="250" constant="70" id="7NC-7t-J1f"/>
+                            <constraint firstAttribute="trailing" secondItem="Jcz-bW-eHc" secondAttribute="trailing" id="82a-kd-JTr"/>
+                            <constraint firstItem="HlU-cd-ZUs" firstAttribute="top" secondItem="XP4-Tu-Kd9" secondAttribute="top" id="WoD-M1-t6Y"/>
+                            <constraint firstAttribute="trailing" secondItem="HlU-cd-ZUs" secondAttribute="trailing" id="dEx-gm-IFo"/>
+                            <constraint firstItem="HlU-cd-ZUs" firstAttribute="leading" secondItem="XP4-Tu-Kd9" secondAttribute="leading" id="gkM-Om-MbF"/>
+                            <constraint firstItem="mHj-zb-5ZG" firstAttribute="leading" secondItem="XP4-Tu-Kd9" secondAttribute="leading" id="rdm-VV-ZDP"/>
+                            <constraint firstAttribute="bottom" secondItem="mHj-zb-5ZG" secondAttribute="bottom" id="uwB-zl-5DN"/>
+                            <constraint firstItem="Jcz-bW-eHc" firstAttribute="leading" secondItem="XP4-Tu-Kd9" secondAttribute="leading" id="xhw-2p-2PF"/>
+                            <constraint firstAttribute="trailing" secondItem="mHj-zb-5ZG" secondAttribute="trailing" id="yVE-bI-qg5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="XP4-Tu-Kd9" secondAttribute="trailing" constant="12" id="Gz8-hU-obl"/>
+                    <constraint firstItem="XP4-Tu-Kd9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="Mdu-Fy-pqD"/>
+                    <constraint firstAttribute="bottom" secondItem="XP4-Tu-Kd9" secondAttribute="bottom" constant="16" id="f7H-Vw-IUf"/>
+                    <constraint firstItem="XP4-Tu-Kd9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="fBN-Wi-Ukf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellBackgroundView" destination="XP4-Tu-Kd9" id="mZ5-6I-a7s"/>
+                <outlet property="installationStatusView" destination="HlU-cd-ZUs" id="iaK-I2-esK"/>
+                <outlet property="mapView" destination="Jcz-bW-eHc" id="1sj-rj-6z5"/>
+                <outlet property="technicianDetailView" destination="mHj-zb-5ZG" id="nVE-Ua-DVf"/>
+            </connections>
+            <point key="canvasLocation" x="144" y="142.1289355322339"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,79 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AppAuth",
+        "repositoryURL": "https://github.com/openid/AppAuth-iOS",
+        "state": {
+          "branch": null,
+          "revision": "01131d68346c8ae552961c768d583c715fbe1410",
+          "version": "1.4.0"
+        }
+      },
+      {
+        "package": "DPProtocols",
+        "repositoryURL": "https://github.com/BIWF/DPProtocol_.git",
+        "state": {
+          "branch": null,
+          "revision": "324aaab8a313f26fd8ec3e7d721397f185a21a7f",
+          "version": "0.0.1"
+        }
+      },
+      {
+        "package": "JTAppleCalendar",
+        "repositoryURL": "https://github.com/patchthecode/JTAppleCalendar",
+        "state": {
+          "branch": null,
+          "revision": "2812ae8a58c4b8132cd3d0e761b984e344d841a4",
+          "version": "8.0.3"
+        }
+      },
+      {
+        "package": "RxDataSources",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxDataSources",
+        "state": {
+          "branch": null,
+          "revision": "a18cee01c9ee55f04d0c7eb15c77a96c3648c88e",
+          "version": "4.0.1"
+        }
+      },
+      {
+        "package": "RxFeedback",
+        "repositoryURL": "https://github.com/NoTests/RxFeedback.swift",
+        "state": {
+          "branch": null,
+          "revision": "cbd500b8dcf1ae72e8c09f26e8f7f5a03268b58d",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "RxKeyboard",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxKeyboard",
+        "state": {
+          "branch": null,
+          "revision": "ed5940a7e29c3a4b4925b2d76260f793d311d58e",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift",
+        "state": {
+          "branch": null,
+          "revision": "002d325b0bdee94e7882e1114af5ff4fe1e96afa",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "SwiftKeychainWrapper",
+        "repositoryURL": "https://github.com/jrendel/SwiftKeychainWrapper",
+        "state": {
+          "branch": null,
+          "revision": "185a3165346a03767101c4f62e9a545a0fe0530f",
+          "version": "4.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,17 @@
+{
+  "totalSize": 1,
+  "done": true,
+  "records": [
+    {
+      "attributes": {
+        "type": "Zuora__CustomerAccount__c",
+        "url": "/services/data/v46.0/sobjects/Zuora__CustomerAccount__c/a1Ff0000001hp33EAA"
+      },
+      "Credit_Card_Summary__c": "Visa ************8291",
+      "Id": "a1Ff0000001hp33EAA",
+      "Name": "ctltest 002",
+      "Next_Renewal_Date__c": "2020-07-29",
+      "Zuora__BillCycleDay__c": "29th of the month"
+    }
+  ]
+}

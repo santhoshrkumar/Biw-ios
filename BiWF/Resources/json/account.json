@@ -1,0 +1,14 @@
+{
+    "Id" : "001q000001HdaIEAAZ",
+    "Name" : "Nick Client",
+    "FirstName__c" : "Nick",
+    "BillingAddress" : {
+      "street" : "1234 Main St",
+      "city" : "Denver",
+      "state" : "CO",
+      "postalCode" : "77731"
+    },
+    "Email_Opt_In__c" : true,
+    "Marketing_Opt_In__c" : true,
+    "Cell_Phone_Opt_In__c" : true
+}
